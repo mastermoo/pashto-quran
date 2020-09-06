@@ -15,7 +15,11 @@
         <angle class="angle" />
         {{ surah.titleAr }}
         <select @change="openSurah" :value="surah.id">
-          <option v-for="s in surahs" :key="s.id" :value="s.id">{{ s.titleAr }}</option>
+          <option
+            v-for="s in surahs"
+            :key="s.id"
+            :value="s.id"
+          >{{ s.titleAr }} - {{ s.id | toArabicNumber }}</option>
         </select>
       </div>
       <span class="header-navItem">

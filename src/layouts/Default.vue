@@ -3,6 +3,7 @@
     <slot />
     <footer>
       <span>
+        Tarjuma by Abdulwali Khan |
         Provided by
         <a href="https://tolafghan.com">Tolafghan.com</a>
       </span>

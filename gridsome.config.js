@@ -5,7 +5,8 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Quran in Pashto',
+  siteName: 'Quran Pashto Tarjuma',
+  siteDescription: 'The holy Quran translated into the Pashto language and beautifully presented.',
   plugins: [],
   templates: {
     Surah: '/:id',
