@@ -126,6 +126,7 @@ article {
 .headline {
   position: relative;
   display: flex;
+  align-items: center;
   font-size: 1.25rem;
 }
 .headline select {
@@ -139,6 +140,7 @@ article {
 .angle {
   margin-right: 5px;
   width: 10px;
+  height: 14px;
   fill: var(--body-color);
 }
 

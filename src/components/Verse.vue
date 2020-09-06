@@ -38,8 +38,10 @@ export default {
   margin: 2.75rem 0 2.75rem 1rem;
 }
 
-.content {
-  margin-left: 60px;
+@media (min-width: 720px) {
+  .content {
+    margin-left: 60px;
+  }
 }
 
 .original {
