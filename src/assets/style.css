@@ -1,0 +1,60 @@
+:root {
+  --body-color: #ebf4f1;
+  --bg: #091a28;
+  --bg-transparent: rgba(9, 26, 40, 0.88);
+  --border-color: #0d2538;
+  --border-color-darker: #0d2538;
+  /* --primary-color: #00835c;
+  --primary-color-dark: #00a672; */
+  --primary-color: #FFD700;
+  --primary-color-dark: #E5C100;
+  --glow: 2px 2px 15px 0 #071521;
+}
+
+@font-face {
+  font-family: 'Palatino Arabic';
+  src: url('./Palatino-Arabic-Regular.ttf');
+  font-weight: normal;
+}
+
+::selection {
+  background-color: var(--primary-color-dark);
+}
+
+html {
+  font-size: 12px;
+}
+
+body {
+  background-image: url('../assets/pattern.png');
+  background-size: 400px 348px;
+  background-color: var(--bg);
+  touch-action: manipulation;
+  width: 100%;
+  transition: background-color .3s;
+}
+
+body {
+  font-family: 'Palatino Arabic', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  color: var(--body-color);
+}
+
+a {
+  color: var(--primary-color-dark);
+  text-decoration: none;
+}
+
+@media (min-width: 720px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 992px) {
+  html {
+    font-size: 16px;
+  }
+}

@@ -1,27 +1,38 @@
 <template>
   <Layout>
-    <header class="header">
-      <span>
-        <g-link v-if="nextLink" :to="nextLink">← {{ surah.nextSurah.title }}</g-link>
+    <header>
+      <span class="header-navItem">
+        <g-link
+          v-if="nextLink"
+          :to="nextLink"
+          :title="surah.nextSurah.title"
+          class="header-navLink"
+        >
+          <left-arrow />
+        </g-link>
       </span>
       <div class="headline">
-        {{ parseInt(surah.id) }} - {{ surah.title }} <span style="position: relative; top: 6px;">&#xfe40;</span>
+        <angle class="angle" />
+        {{ surah.titleAr }}
         <select @change="openSurah" :value="surah.id">
-          <option v-for="s in surahs" :key="s.id" :value="s.id">{{ parseInt(s.id) }} - {{ s.title }}</option>
+          <option v-for="s in surahs" :key="s.id" :value="s.id">{{ s.titleAr }}</option>
         </select>
       </div>
-      <span>
-        <g-link v-if="prevLink" :to="prevLink">{{ surah.prevSurah.title }} →</g-link>
+      <span class="header-navItem">
+        <g-link
+          v-if="prevLink"
+          :to="prevLink"
+          :title="surah.prevSurah.title"
+          class="header-navLink"
+        >
+          <right-arrow />
+        </g-link>
       </span>
     </header>
 
     <h1 v-if="!pageIsAlFatiha" class="bismillah">{{ bismillah }}</h1>
     <article dir="rtl">
-      <verse
-        v-for="verse in surah.verses"
-        :key="verse.index"
-        :verse="verse"
-      />
+      <verse v-for="verse in surah.verses" :key="verse.index" :verse="verse" />
     </article>
   </Layout>
 </template>
@@ -32,7 +43,7 @@ query {
     edges {
       node {
         id
-        title
+        titleAr
       }
     }
   }
@@ -42,16 +53,22 @@ query {
 
 <script>
 import Verse from "./Verse";
+import LeftArrow from "~/assets/arrow-left.svg";
+import RightArrow from "~/assets/arrow-right.svg";
+import Angle from "~/assets/chevron-down.svg";
 
 export default {
   components: {
-    Verse
+    LeftArrow,
+    RightArrow,
+    Angle,
+    Verse,
   },
   props: ["surah"],
   methods: {
     openSurah(e) {
       this.$router.push({ path: `/${e.target.value}` });
-    }
+    },
   },
   computed: {
     bismillah() {
@@ -71,22 +88,45 @@ export default {
       }
     },
     surahs() {
-      return this.$static.allSurah.edges.map(o => o.node);
-    }
+      return this.$static.allSurah.edges.map((o) => o.node);
+    },
   },
 };
 </script>
 
 <style scoped>
-main {
-  width: 100%;
-  padding: 0 2rem;
-  max-width: 720px;
-  margin: 0 auto;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 54px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: var(--bg-transparent);
+  backdrop-filter: blur(3px);
+  border-bottom: 1px solid var(--border-color);
+  margin-bottom: 50px;
+}
+.header-navItem {
+  padding: 12px 1.5rem 5px;
+}
+.header-navItem svg {
+  fill: var(--primary-color-dark);
+  width: 16px;
+}
+
+article {
+  max-width: 760px;
+  margin: 3rem auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .headline {
   position: relative;
+  display: flex;
+  font-size: 1.25rem;
 }
 .headline select {
   opacity: 0;
@@ -95,6 +135,11 @@ main {
   left: 0;
   right: 0;
   bottom: 0;
+}
+.angle {
+  margin-right: 5px;
+  width: 10px;
+  fill: var(--body-color);
 }
 
 .bismillah {

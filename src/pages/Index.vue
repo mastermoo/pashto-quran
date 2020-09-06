@@ -7,6 +7,7 @@ query {
   surah(id: "001") {
     id,
     title,
+    titleAr,
     verses {
       index,
       content,

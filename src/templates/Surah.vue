@@ -7,6 +7,7 @@ query ($id: ID!) {
   surah(id: $id) {
     id,
     title,
+    titleAr,
     verses {
       index,
       content,

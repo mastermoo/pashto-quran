@@ -1,3 +1,4 @@
+import '~/assets/style.css'
 import DefaultLayout from '~/layouts/Default.vue'
 import Surah from '~/components/Surah.vue'
 

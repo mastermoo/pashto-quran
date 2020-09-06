@@ -1,42 +1,55 @@
 <template>
   <section class="verse" :id="verse.index">
-    <p class="number" :title="`Verse ${verse.index}`">{{ arabicNumber }}</p>
-    <p class="original">{{ verse.content }}</p>
-    <p class="translation">{{ verse.translation }}</p>
+    <div class="prefix">
+      <div class="line"></div>
+      <number :num="verse.index" />
+    </div>
+    <div class="content">
+      <p class="original">{{ verse.content }}</p>
+      <p class="translation">{{ verse.translation }}</p>
+    </div>
   </section>
 </template>
 
 <script>
-const arabicDigits = ["۰", "۱", "۲", "۳", "۴", "۵", "۶", "۷", "۸", "۹"];
+import Number from "./Number";
 
 export default {
+  components: { Number },
   props: ["verse"],
-  computed: {
-    arabicNumber() {
-      return this.verse.index.toString().replace(/[0-9]/g, (w) => arabicDigits[+w]);
-    }
-  },
 };
 </script>
 
 <style scoped>
 .verse {
-  padding: 0.85rem 0;
-  border-bottom: 1px solid #eeeeee;
+  position: relative;
 }
 
-.number {
-  margin: 0 0 0.5rem;
+.prefix {
+  display: flex;
+  align-items: center;
 }
+
+.prefix .line {
+  width: 100%;
+  height: 1px;
+  display: block;
+  background: var(--border-color);
+  margin: 2.75rem 0 2.75rem 1rem;
+}
+
+.content {
+  margin-left: 60px;
+}
+
 .original {
-  font-size: 2.25rem;
-  color: green;
+  font-size: 2rem;
+  color: var(--primary-color);
   margin: 0 0 0.5rem;
 }
 
 .translation {
-  color: #555555;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   margin: 0;
 }
 </style>
