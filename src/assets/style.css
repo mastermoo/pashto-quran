@@ -58,3 +58,8 @@ a {
     font-size: 16px;
   }
 }
+
+select {
+  /* fix ios zoom issue when focusing on select */
+  font-size: 16px;
+}
