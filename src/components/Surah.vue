@@ -37,7 +37,9 @@
     <h1 v-if="pageHasBismillah" class="bismillah">{{ bismillah }}</h1>
     <article dir="rtl">
       <verse v-for="verse in visibleVerses" :key="verse.index" :verse="verse" />
-      <infinite-loading ref="infiniteLoading" @infinite="infiniteHandler" spinner="spiral" />
+      <client-only>
+        <infinite-loading ref="infiniteLoading" @infinite="infiniteHandler" spinner="spiral" />
+      </client-only>
     </article>
   </Layout>
 </template>
