@@ -37,7 +37,7 @@
     <h1 v-if="pageHasBismillah" class="bismillah">{{ bismillah }}</h1>
     <article dir="rtl">
       <verse v-for="verse in visibleVerses" :key="verse.index" :verse="verse" />
-      <infinite-loading @infinite="infiniteHandler" spinner="spiral" />
+      <infinite-loading ref="infiniteLoading" @infinite="infiniteHandler" spinner="spiral" />
     </article>
   </Layout>
 </template>
@@ -75,6 +75,12 @@ export default {
   data() {
     return {
       versesLoaded: VERSES_PER
+    }
+  },
+  watch: {
+    surah() {
+      this.versesLoaded = VERSES_PER
+      this.$refs.infiniteLoading.stateChanger.reset()
     }
   },
   methods: {
