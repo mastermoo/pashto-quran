@@ -12,6 +12,7 @@ export default function (Vue, { router, head, isClient }) {
   Vue.use(InfiniteLoading, {
     slots: {
       noMore: '',
+      noResults: '',
     }
   })
 

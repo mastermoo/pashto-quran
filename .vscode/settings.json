@@ -1,5 +1,6 @@
 {
   "vetur.grammar.customBlocks": {
-    "page-query": "graphql"
+    "page-query": "graphql",
+    "static-query": "graphql"
   }
 }
