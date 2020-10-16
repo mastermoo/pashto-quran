@@ -34,7 +34,7 @@
       </span>
     </header>
 
-    <h1 v-if="!pageIsAlFatiha" class="bismillah">{{ bismillah }}</h1>
+    <h1 v-if="pageHasBismillah" class="bismillah">{{ bismillah }}</h1>
     <article dir="rtl">
       <verse v-for="verse in visibleVerses" :key="verse.index" :verse="verse" />
       <infinite-loading @infinite="infiniteHandler" spinner="spiral" />
@@ -94,8 +94,8 @@ export default {
     bismillah() {
       return "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ";
     },
-    pageIsAlFatiha() {
-      return this.surah.id === "001";
+    pageHasBismillah() {
+      return !["1", "9"].includes(this.surah.id);
     },
     prevLink() {
       if (this.surah.prevSurah) {

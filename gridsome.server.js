@@ -9,10 +9,10 @@ module.exports = function (api) {
       const prevSurah = Surahs[surahIndex - 1];
       const nextSurah = Surahs[surahIndex + 1];
       surahCollection.addNode({
-        id: surah.index,
+        id: Number(surah.index),
         ...surah,
-        nextSurah: nextSurah ? { id: nextSurah.index, title: nextSurah.title } : null,
-        prevSurah: prevSurah ? { id: prevSurah.index, title: prevSurah.title } : null,
+        nextSurah: nextSurah ? { id: Number(nextSurah.index), title: nextSurah.title } : null,
+        prevSurah: prevSurah ? { id: Number(prevSurah.index), title: prevSurah.title } : null,
         verses: Verses.filter(v => v.surah == parseInt(surah.index)).map(v => {
           return {
             ...v,
