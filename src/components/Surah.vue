@@ -36,7 +36,8 @@
 
     <h1 v-if="!pageIsAlFatiha" class="bismillah">{{ bismillah }}</h1>
     <article dir="rtl">
-      <verse v-for="verse in surah.verses" :key="verse.index" :verse="verse" />
+      <verse v-for="verse in visibleVerses" :key="verse.index" :verse="verse" />
+      <infinite-loading @infinite="infiniteHandler" spinner="spiral" />
     </article>
   </Layout>
 </template>
@@ -61,6 +62,8 @@ import LeftArrow from "~/assets/arrow-left.svg";
 import RightArrow from "~/assets/arrow-right.svg";
 import Angle from "~/assets/chevron-down.svg";
 
+const VERSES_PER = 25
+
 export default {
   components: {
     LeftArrow,
@@ -69,10 +72,23 @@ export default {
     Verse,
   },
   props: ["surah"],
+  data() {
+    return {
+      versesLoaded: VERSES_PER
+    }
+  },
   methods: {
     openSurah(e) {
       this.$router.push({ path: `/${e.target.value}` });
     },
+    infiniteHandler($state) {
+      if (this.versesLoaded >= this.surah.verses.length) {
+        $state.complete()
+      } else {
+        this.versesLoaded += VERSES_PER
+        $state.loaded()
+      }
+    }
   },
   computed: {
     bismillah() {
@@ -94,6 +110,9 @@ export default {
     surahs() {
       return this.$static.allSurah.edges.map((o) => o.node);
     },
+    visibleVerses() {
+      return this.surah.verses.slice(0, this.versesLoaded)
+    }
   },
 };
 </script>
@@ -150,5 +169,15 @@ article {
 
 .bismillah {
   text-align: center;
+}
+
+/* fading in new verses */
+.fade-enter-active,
+.fade-leave-active {
+  transition: ease opacity 0.3s;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
 }
 </style>
