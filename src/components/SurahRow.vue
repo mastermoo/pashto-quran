@@ -1,7 +1,7 @@
 <template>
   <g-link class="row" :to="`/${surah.id}`">
     <section class="row-inner">
-      <div style="display: flex">
+      <div style="display: flex; margin-right: .5rem; transform: scale(0.75)">
         <number :num="parseInt(surah.id)" />
       </div>
       <article class="row-content">
@@ -29,7 +29,7 @@ export default {
   display: block;
   width: 100%;
   color: inherit;
-  padding: 2rem 0;
+  padding: 1.5rem 1rem;
   border-bottom: 1px solid var(--border-color);
 }
 .row:hover {
@@ -38,7 +38,7 @@ export default {
 .row-inner {
   display: flex;
   align-items: center;
-  max-width: 500px;
+  max-width: 540px;
   margin: 0 auto;
 }
 

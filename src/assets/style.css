@@ -17,6 +17,10 @@
   font-weight: normal;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 ::selection {
   background-color: var(--primary-color-dark);
 }

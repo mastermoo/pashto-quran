@@ -1,5 +1,6 @@
 <template>
   <Layout>
+    <h1 class="text-center">القرآن الكريم<br> ترجمه</h1>
     <surah-row v-for="surah in surahs" :key="surah.id" :surah="surah" />
   </Layout>
 </template>
@@ -38,3 +39,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.text-center {
+  text-align: center;
+}
+</style>
