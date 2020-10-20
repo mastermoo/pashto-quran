@@ -20,7 +20,9 @@
       </span>
     </header>
 
-    <h1 v-if="pageHasBismillah" class="bismillah">{{ bismillah }}</h1>
+    <h1 v-if="pageHasBismillah" class="bismillah">
+      <bismillah style="height: 75px" />
+    </h1>
     <article dir="rtl">
       <verse v-for="verse in visibleVerses" :key="verse.index" :verse="verse" />
       <client-only>
@@ -49,6 +51,7 @@ import Verse from './Verse'
 import LeftArrow from '~/assets/arrow-left.svg'
 import RightArrow from '~/assets/arrow-right.svg'
 import Angle from '~/assets/chevron-down.svg'
+import Bismillah from '~/assets/bismillah.svg'
 
 const VERSES_PER = 25
 
@@ -57,6 +60,7 @@ export default {
     LeftArrow,
     RightArrow,
     Angle,
+    Bismillah,
     Verse,
   },
   props: ['surah'],
@@ -162,7 +166,8 @@ article {
 }
 
 .bismillah {
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 /* fading in new verses */
