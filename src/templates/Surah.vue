@@ -30,6 +30,12 @@ export default {
   metaInfo() {
     return {
       title: this.$page.surah.title,
+      meta: [
+        {
+          property: 'og:image',
+          content: `https://quran.tolafghan.com/surah-thumbnails/surah-${this.$page.surah.id}.png`,
+        },
+      ],
     }
   },
 }
