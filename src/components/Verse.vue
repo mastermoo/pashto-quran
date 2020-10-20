@@ -12,12 +12,12 @@
 </template>
 
 <script>
-import Number from "./Number";
+import Number from './Number'
 
 export default {
   components: { Number },
-  props: ["verse"],
-};
+  props: ['verse'],
+}
 </script>
 
 <style scoped>

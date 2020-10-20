@@ -29,7 +29,7 @@ query ($id: ID!) {
 export default {
   metaInfo() {
     return {
-      title: this.$page.surah.title
+      title: this.$page.surah.title,
     }
   },
 }

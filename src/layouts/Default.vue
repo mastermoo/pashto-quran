@@ -3,8 +3,7 @@
     <slot />
     <footer>
       <span>
-        Tarjuma by Abdulwali Khan |
-        Provided by
+        Tarjuma by Abdulwali Khan | Provided by
         <a href="https://tolafghan.com">Tolafghan.com</a>
       </span>
     </footer>
@@ -14,8 +13,7 @@
 <style>
 footer {
   font-size: 0.75rem;
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, sans-serif;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   background-color: var(--bg);
   border-top: 1px solid var(--border-color);
   margin-top: -1px;

@@ -18,6 +18,14 @@ Once the server is running, visit `http://localhost:8080`.
 You have to have Vetur plugin installed and run `Vetur: Generate grammar from...` and then reload VS Code.
 Source: https://github.com/vuejs/vetur/issues/975#issuecomment-461197031
 
+### Prettier
+
+This project uses Prettier to have a consistent format for all js and vue files.
+
+To run Prettier on all files, run in your terminal:
+
+> npx prettier --config ./.prettierrc --write "**/*.{js,vue,css}"
+
 ------
 
 Happy coding 🎉🙌

@@ -2,12 +2,7 @@
   <Layout>
     <header>
       <span class="header-navItem">
-        <g-link
-          v-if="nextLink"
-          :to="nextLink"
-          :title="surah.nextSurah.title"
-          class="header-navLink"
-        >
+        <g-link v-if="nextLink" :to="nextLink" :title="surah.nextSurah.title" class="header-navLink">
           <left-arrow />
         </g-link>
       </span>
@@ -15,20 +10,11 @@
         <angle class="angle" />
         {{ surah.titleAr }}
         <select @change="openSurah" :value="surah.id">
-          <option
-            v-for="s in surahs"
-            :key="s.id"
-            :value="s.id"
-          >{{ s.titleAr }} - {{ s.id | toArabicNumber }}</option>
+          <option v-for="s in surahs" :key="s.id" :value="s.id">{{ s.titleAr }} - {{ s.id | toArabicNumber }}</option>
         </select>
       </div>
       <span class="header-navItem">
-        <g-link
-          v-if="prevLink"
-          :to="prevLink"
-          :title="surah.prevSurah.title"
-          class="header-navLink"
-        >
+        <g-link v-if="prevLink" :to="prevLink" :title="surah.prevSurah.title" class="header-navLink">
           <right-arrow />
         </g-link>
       </span>
@@ -59,10 +45,10 @@ query {
 </static-query>
 
 <script>
-import Verse from "./Verse";
-import LeftArrow from "~/assets/arrow-left.svg";
-import RightArrow from "~/assets/arrow-right.svg";
-import Angle from "~/assets/chevron-down.svg";
+import Verse from './Verse'
+import LeftArrow from '~/assets/arrow-left.svg'
+import RightArrow from '~/assets/arrow-right.svg'
+import Angle from '~/assets/chevron-down.svg'
 
 const VERSES_PER = 25
 
@@ -73,21 +59,21 @@ export default {
     Angle,
     Verse,
   },
-  props: ["surah"],
+  props: ['surah'],
   data() {
     return {
-      versesLoaded: VERSES_PER
+      versesLoaded: VERSES_PER,
     }
   },
   watch: {
     surah() {
       this.versesLoaded = VERSES_PER
       this.$refs.infiniteLoading.stateChanger.reset()
-    }
+    },
   },
   methods: {
     openSurah(e) {
-      this.$router.push({ path: `/${e.target.value}` });
+      this.$router.push({ path: `/${e.target.value}` })
     },
     infiniteHandler($state) {
       if (this.versesLoaded >= this.surah.verses.length) {
@@ -96,33 +82,33 @@ export default {
         this.versesLoaded += VERSES_PER
         $state.loaded()
       }
-    }
+    },
   },
   computed: {
     bismillah() {
-      return "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ";
+      return 'بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ'
     },
     pageHasBismillah() {
-      return !["1", "9"].includes(this.surah.id);
+      return !['1', '9'].includes(this.surah.id)
     },
     prevLink() {
       if (this.surah.prevSurah) {
-        return `/${this.surah.prevSurah.id}`;
+        return `/${this.surah.prevSurah.id}`
       }
     },
     nextLink() {
       if (this.surah.nextSurah) {
-        return `/${this.surah.nextSurah.id}`;
+        return `/${this.surah.nextSurah.id}`
       }
     },
     surahs() {
-      return this.$static.allSurah.edges.map((o) => o.node);
+      return this.$static.allSurah.edges.map(o => o.node)
     },
     visibleVerses() {
       return this.surah.verses.slice(0, this.versesLoaded)
-    }
+    },
   },
-};
+}
 </script>
 
 <style scoped>

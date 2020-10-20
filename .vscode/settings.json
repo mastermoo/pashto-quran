@@ -1,4 +1,14 @@
 {
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "octref.vetur"
+  },
+  "vetur.format.defaultFormatter.css": "prettier",
+  "vetur.format.defaultFormatter.js": "prettier",
   "vetur.grammar.customBlocks": {
     "page-query": "graphql",
     "static-query": "graphql"

@@ -5,6 +5,7 @@
     "count": 7,
     "title": "Al-Fatiha",
     "titleAr": "الفاتحة",
+    "titlePs": "خلاصونکی",
     "index": "001",
     "pages": "1",
     "juz": [
@@ -23,6 +24,7 @@
     "count": 286,
     "title": "Al-Baqara",
     "titleAr": "البقرة",
+    "titlePs": "غوا",
     "index": "002",
     "pages": "2",
     "juz": [
@@ -55,6 +57,7 @@
     "count": 200,
     "title": "Aal-Imran",
     "titleAr": "آل عمران",
+    "titlePs": "د عمران کورنۍ",
     "index": "003",
     "pages": "45",
     "juz": [
@@ -80,6 +83,7 @@
     "count": 176,
     "title": "An-Nisaa'",
     "titleAr": "النساء",
+    "titlePs": "هغه میرمن",
     "index": "004",
     "pages": "69",
     "juz": [
@@ -112,6 +116,7 @@
     "count": 120,
     "title": "Al-Ma'ida",
     "titleAr": "المائدة",
+    "titlePs": "د میز خپریدل",
     "index": "005",
     "pages": "95",
     "juz": [
@@ -137,6 +142,7 @@
     "count": 165,
     "title": "Al-An'am",
     "titleAr": "الأنعام",
+    "titlePs": "پیشو",
     "index": "006",
     "pages": "115",
     "juz": [
@@ -162,6 +168,7 @@
     "count": 206,
     "title": "Al-A'raf",
     "titleAr": "الأعراف",
+    "titlePs": "لوړوالی",
     "index": "007",
     "pages": "136",
     "juz": [
@@ -187,6 +194,7 @@
     "count": 75,
     "title": "Al-Anfal",
     "titleAr": "الأنفال",
+    "titlePs": "د جنګ تيغي",
     "index": "008",
     "pages": "160",
     "juz": [
@@ -212,6 +220,7 @@
     "count": 129,
     "title": "Al-Tawba",
     "titleAr": "التوبة",
+    "titlePs": "توبه",
     "index": "009",
     "pages": "169",
     "juz": [
@@ -237,6 +246,7 @@
     "count": 109,
     "title": "Yunus",
     "titleAr": "يونس",
+    "titlePs": "یونس",
     "index": "010",
     "pages": "187",
     "juz": [
@@ -255,6 +265,7 @@
     "count": 123,
     "title": "Hud",
     "titleAr": "هود",
+    "titlePs": "هود",
     "index": "011",
     "pages": "199",
     "juz": [
@@ -280,6 +291,7 @@
     "count": 111,
     "title": "Yusuf",
     "titleAr": "يوسف",
+    "titlePs": "یوسف",
     "index": "012",
     "pages": "212",
     "juz": [
@@ -305,6 +317,7 @@
     "count": 43,
     "title": "Ar-Ra'd",
     "titleAr": "الرعد",
+    "titlePs": "تندر",
     "index": "013",
     "pages": "225",
     "juz": [
@@ -323,6 +336,7 @@
     "count": 52,
     "title": "Ibrahim",
     "titleAr": "إبراهيم",
+    "titlePs": "ابراهیم",
     "index": "014",
     "pages": "231",
     "juz": [
@@ -341,6 +355,7 @@
     "count": 99,
     "title": "Al-Hijr",
     "titleAr": "الحجر",
+    "titlePs": "راکی ټریک",
     "index": "015",
     "pages": "237",
     "juz": [
@@ -359,6 +374,7 @@
     "count": 128,
     "title": "An-Nahl",
     "titleAr": "النحل",
+    "titlePs": "د شاتو مچۍ",
     "index": "016",
     "pages": "242",
     "juz": [
@@ -377,6 +393,7 @@
     "count": 111,
     "title": "Al-Israa",
     "titleAr": "الإسراء",
+    "titlePs": "د شپې سفر",
     "index": "017",
     "pages": "255",
     "juz": [
@@ -395,6 +412,7 @@
     "count": 110,
     "title": "Al-Kahf",
     "titleAr": "الكهف",
+    "titlePs": "غار",
     "index": "018",
     "pages": "266",
     "juz": [
@@ -420,6 +438,7 @@
     "count": 98,
     "title": "Maryam",
     "titleAr": "مريم",
+    "titlePs": "مریم",
     "index": "019",
     "pages": "277",
     "juz": [
@@ -438,6 +457,7 @@
     "count": 135,
     "title": "Ta-Ha",
     "titleAr": "طه",
+    "titlePs": "ټی ها",
     "index": "020",
     "pages": "284",
     "juz": [
@@ -456,6 +476,7 @@
     "count": 112,
     "title": "Al-Anbiya",
     "titleAr": "الأنبياء",
+    "titlePs": "د",
     "index": "021",
     "pages": "294",
     "juz": [
@@ -474,6 +495,7 @@
     "count": 78,
     "title": "Al-Hajj",
     "titleAr": "الحج",
+    "titlePs": "زیارت",
     "index": "022",
     "pages": "302",
     "juz": [
@@ -492,6 +514,7 @@
     "count": 118,
     "title": "Al-Muminun",
     "titleAr": "المؤمنون",
+    "titlePs": "باور لرونکي",
     "index": "023",
     "pages": "311",
     "juz": [
@@ -510,6 +533,7 @@
     "count": 64,
     "title": "An-Nur",
     "titleAr": "النور",
+    "titlePs": "رڼا",
     "index": "024",
     "pages": "319",
     "juz": [
@@ -528,6 +552,7 @@
     "count": 77,
     "title": "Al-Furqan",
     "titleAr": "الفرقان",
+    "titlePs": "نقشه",
     "index": "025",
     "pages": "329",
     "juz": [
@@ -553,6 +578,7 @@
     "count": 227,
     "title": "Ash-Shuara",
     "titleAr": "الشعراء",
+    "titlePs": "د",
     "index": "026",
     "pages": "335",
     "juz": [
@@ -571,6 +597,7 @@
     "count": 93,
     "title": "An-Naml",
     "titleAr": "النمل",
+    "titlePs": "میږی",
     "index": "027",
     "pages": "345",
     "juz": [
@@ -596,6 +623,7 @@
     "count": 88,
     "title": "Al-Qasas",
     "titleAr": "القصص",
+    "titlePs": "کيسې",
     "index": "028",
     "pages": "354",
     "juz": [
@@ -614,6 +642,7 @@
     "count": 69,
     "title": "Al-Ankabut",
     "titleAr": "العنكبوت",
+    "titlePs": "سپایډر",
     "index": "029",
     "pages": "364",
     "juz": [
@@ -639,6 +668,7 @@
     "count": 60,
     "title": "Ar-Rum",
     "titleAr": "الروم",
+    "titlePs": "روميان",
     "index": "030",
     "pages": "371",
     "juz": [
@@ -657,6 +687,7 @@
     "count": 34,
     "title": "Luqman",
     "titleAr": "لقمان",
+    "titlePs": "لقمان",
     "index": "031",
     "pages": "377",
     "juz": [
@@ -675,6 +706,7 @@
     "count": 30,
     "title": "As-Sajdah",
     "titleAr": "السجدة",
+    "titlePs": "سجدې",
     "index": "032",
     "pages": "381",
     "juz": [
@@ -693,6 +725,7 @@
     "count": 73,
     "title": "Al-Ahzab",
     "titleAr": "الأحزاب",
+    "titlePs": "ګډ ځواکونه",
     "index": "033",
     "pages": "383",
     "juz": [
@@ -718,6 +751,7 @@
     "count": 54,
     "title": "Saba",
     "titleAr": "سبأ",
+    "titlePs": "شیبا",
     "index": "034",
     "pages": "393",
     "juz": [
@@ -736,6 +770,7 @@
     "count": 45,
     "title": "Fatir",
     "titleAr": "فاطر",
+    "titlePs": "نوښتګر",
     "index": "035",
     "pages": "399",
     "juz": [
@@ -754,6 +789,7 @@
     "count": 83,
     "title": "Yasin",
     "titleAr": "يس",
+    "titlePs": "یا سین",
     "index": "036",
     "pages": "404",
     "juz": [
@@ -779,6 +815,7 @@
     "count": 182,
     "title": "As-Saffat",
     "titleAr": "الصافات",
+    "titlePs": "هغه څوک چې درجه بندي کوي",
     "index": "037",
     "pages": "410",
     "juz": [
@@ -797,6 +834,7 @@
     "count": 88,
     "title": "Sad",
     "titleAr": "ص",
+    "titlePs": "لیک سعد",
     "index": "038",
     "pages": "417",
     "juz": [
@@ -815,6 +853,7 @@
     "count": 75,
     "title": "Az-Zumar",
     "titleAr": "الزمر",
+    "titlePs": "سرتیري",
     "index": "039",
     "pages": "422",
     "juz": [
@@ -840,6 +879,7 @@
     "count": 85,
     "title": "Ghafir",
     "titleAr": "غافر",
+    "titlePs": "بخښونکی",
     "index": "040",
     "pages": "431",
     "juz": [
@@ -858,6 +898,7 @@
     "count": 54,
     "title": "Fussilat",
     "titleAr": "فصلت",
+    "titlePs": "په تفصیل سره تشریح شوی",
     "index": "041",
     "pages": "439",
     "juz": [
@@ -883,6 +924,7 @@
     "count": 53,
     "title": "Ash-Shura",
     "titleAr": "الشورى",
+    "titlePs": "مشوره",
     "index": "042",
     "pages": "445",
     "juz": [
@@ -901,6 +943,7 @@
     "count": 89,
     "title": "Az-Zukhruf",
     "titleAr": "الزخرف",
+    "titlePs": "د زرو زیورات",
     "index": "043",
     "pages": "451",
     "juz": [
@@ -919,6 +962,7 @@
     "count": 59,
     "title": "Ad-Dukhan",
     "titleAr": "الدخان",
+    "titlePs": "لوګی",
     "index": "044",
     "pages": "457",
     "juz": [
@@ -937,6 +981,7 @@
     "count": 37,
     "title": "Al-Jathiya",
     "titleAr": "الجاثية",
+    "titlePs": "کرچینګ",
     "index": "045",
     "pages": "460",
     "juz": [
@@ -955,6 +1000,7 @@
     "count": 35,
     "title": "Al-Ahqaf",
     "titleAr": "الأحقاف",
+    "titlePs": "د باد د رغول شوي سنډلس",
     "index": "046",
     "pages": "464",
     "juz": [
@@ -973,6 +1019,7 @@
     "count": 38,
     "title": "Muhammad",
     "titleAr": "محمد",
+    "titlePs": "محمد",
     "index": "047",
     "pages": "468",
     "juz": [
@@ -991,6 +1038,7 @@
     "count": 29,
     "title": "Al-Fath",
     "titleAr": "الفتح",
+    "titlePs": "د",
     "index": "048",
     "pages": "472",
     "juz": [
@@ -1009,6 +1057,7 @@
     "count": 18,
     "title": "Al-Hujurat",
     "titleAr": "الحجرات",
+    "titlePs": "خونه",
     "index": "049",
     "pages": "477",
     "juz": [
@@ -1027,6 +1076,7 @@
     "count": 45,
     "title": "Qaf",
     "titleAr": "ق",
+    "titlePs": "خط قف",
     "index": "050",
     "pages": "479",
     "juz": [
@@ -1045,6 +1095,7 @@
     "count": 60,
     "title": "Az-Zariyat",
     "titleAr": "الذاريات",
+    "titlePs": "د بادونو څپې",
     "index": "051",
     "pages": "482",
     "juz": [
@@ -1070,6 +1121,7 @@
     "count": 49,
     "title": "At-Tur",
     "titleAr": "الطور",
+    "titlePs": "غر",
     "index": "052",
     "pages": "485",
     "juz": [
@@ -1088,6 +1140,7 @@
     "count": 62,
     "title": "An-Najm",
     "titleAr": "النجم",
+    "titlePs": "ستوری",
     "index": "053",
     "pages": "487",
     "juz": [
@@ -1106,6 +1159,7 @@
     "count": 55,
     "title": "Al-Qamar",
     "titleAr": "القمر",
+    "titlePs": "سپوږمۍ",
     "index": "054",
     "pages": "490",
     "juz": [
@@ -1124,6 +1178,7 @@
     "count": 78,
     "title": "Ar-Rahman",
     "titleAr": "الرحمن",
+    "titlePs": "د",
     "index": "055",
     "pages": "493",
     "juz": [
@@ -1142,6 +1197,7 @@
     "count": 96,
     "title": "Al-Waqia",
     "titleAr": "الواقعة",
+    "titlePs": "ناگزیر",
     "index": "056",
     "pages": "496",
     "juz": [
@@ -1160,6 +1216,7 @@
     "count": 29,
     "title": "Al-Hadid",
     "titleAr": "الحديد",
+    "titlePs": "اوسپنه",
     "index": "057",
     "pages": "499",
     "juz": [
@@ -1178,6 +1235,7 @@
     "count": 22,
     "title": "Al-Mujadilah",
     "titleAr": "المجادلة",
+    "titlePs": "منحرفه ښځه",
     "index": "058",
     "pages": "504",
     "juz": [
@@ -1196,6 +1254,7 @@
     "count": 24,
     "title": "Al-Hashr",
     "titleAr": "الحشر",
+    "titlePs": "جلاوطنۍ",
     "index": "059",
     "pages": "507",
     "juz": [
@@ -1214,6 +1273,7 @@
     "count": 13,
     "title": "Al-Mumtahinah",
     "titleAr": "الممتحنة",
+    "titlePs": "هغه چې معاینه شي",
     "index": "060",
     "pages": "510",
     "juz": [
@@ -1232,6 +1292,7 @@
     "count": 14,
     "title": "As-Saff",
     "titleAr": "الصف",
+    "titlePs": "درجه بندي",
     "index": "061",
     "pages": "513",
     "juz": [
@@ -1250,6 +1311,7 @@
     "count": 11,
     "title": "Al-Jumu'ah",
     "titleAr": "الجمعة",
+    "titlePs": "جمعه ، جمعه",
     "index": "062",
     "pages": "515",
     "juz": [
@@ -1268,6 +1330,7 @@
     "count": 11,
     "title": "Al-Munafiqun",
     "titleAr": "المنافقون",
+    "titlePs": "منافقان",
     "index": "063",
     "pages": "516",
     "juz": [
@@ -1286,6 +1349,7 @@
     "count": 18,
     "title": "At-Taghabun",
     "titleAr": "التغابن",
+    "titlePs": "دوه اړخیز تحلیل",
     "index": "064",
     "pages": "518",
     "juz": [
@@ -1304,6 +1368,7 @@
     "count": 12,
     "title": "At-Talaq",
     "titleAr": "الطلاق",
+    "titlePs": "طلاق",
     "index": "065",
     "pages": "520",
     "juz": [
@@ -1322,6 +1387,7 @@
     "count": 12,
     "title": "At-Tahrim",
     "titleAr": "التحريم",
+    "titlePs": "ممانعت",
     "index": "066",
     "pages": "522",
     "juz": [
@@ -1340,6 +1406,7 @@
     "count": 30,
     "title": "Al-Mulk",
     "titleAr": "الملك",
+    "titlePs": "حاکمیت",
     "index": "067",
     "pages": "524",
     "juz": [
@@ -1358,6 +1425,7 @@
     "count": 52,
     "title": "Al-Qalam",
     "titleAr": "القلم",
+    "titlePs": "قلم",
     "index": "068",
     "pages": "526",
     "juz": [
@@ -1376,6 +1444,7 @@
     "count": 52,
     "title": "Al-Haqqah",
     "titleAr": "الحاقة",
+    "titlePs": "حقیقت",
     "index": "069",
     "pages": "529",
     "juz": [
@@ -1394,6 +1463,7 @@
     "count": 44,
     "title": "Al-Ma'arij",
     "titleAr": "المعارج",
+    "titlePs": "پورته تلونکې زینې",
     "index": "070",
     "pages": "531",
     "juz": [
@@ -1412,6 +1482,7 @@
     "count": 28,
     "title": "Nuh",
     "titleAr": "نوح",
+    "titlePs": "نوح",
     "index": "071",
     "pages": "533",
     "juz": [
@@ -1430,6 +1501,7 @@
     "count": 28,
     "title": "Al-Jinn",
     "titleAr": "الجن",
+    "titlePs": "جن",
     "index": "072",
     "pages": "534",
     "juz": [
@@ -1448,6 +1520,7 @@
     "count": 20,
     "title": "Al-Muzzammil",
     "titleAr": "المزمل",
+    "titlePs": "غرق شوی",
     "index": "073",
     "pages": "537",
     "juz": [
@@ -1466,6 +1539,7 @@
     "count": 56,
     "title": "Al-Muddaththir",
     "titleAr": "المدثر",
+    "titlePs": "تړلی یو",
     "index": "074",
     "pages": "538",
     "juz": [
@@ -1484,6 +1558,7 @@
     "count": 40,
     "title": "Al-Qiyamah",
     "titleAr": "القيامة",
+    "titlePs": "قیامت",
     "index": "075",
     "pages": "540",
     "juz": [
@@ -1502,6 +1577,7 @@
     "count": 31,
     "title": "Al-Insan",
     "titleAr": "الإنسان",
+    "titlePs": "سړی",
     "index": "076",
     "pages": "542",
     "juz": [
@@ -1520,6 +1596,7 @@
     "count": 50,
     "title": "Al-Mursalat",
     "titleAr": "المرسلات",
+    "titlePs": "د",
     "index": "077",
     "pages": "544",
     "juz": [
@@ -1538,6 +1615,7 @@
     "count": 40,
     "title": "An-Naba",
     "titleAr": "النبأ",
+    "titlePs": "خبرتیا",
     "index": "078",
     "pages": "545",
     "juz": [
@@ -1556,6 +1634,7 @@
     "count": 46,
     "title": "An-Naziat",
     "titleAr": "النازعات",
+    "titlePs": "هغه څوک چې مخ اړوي",
     "index": "079",
     "pages": "547",
     "juz": [
@@ -1574,6 +1653,7 @@
     "count": 42,
     "title": "Abasa",
     "titleAr": "عبس",
+    "titlePs": "هغه غرق شو",
     "index": "080",
     "pages": "548",
     "juz": [
@@ -1592,6 +1672,7 @@
     "count": 29,
     "title": "At-Takwir",
     "titleAr": "التكوير",
+    "titlePs": "د",
     "index": "081",
     "pages": "550",
     "juz": [
@@ -1610,6 +1691,7 @@
     "count": 19,
     "title": "Al-Infitar",
     "titleAr": "الإنفطار",
+    "titlePs": "پاکول",
     "index": "082",
     "pages": "551",
     "juz": [
@@ -1628,6 +1710,7 @@
     "count": 36,
     "title": "Al-Mutaffifin",
     "titleAr": "المطففين",
+    "titlePs": "د",
     "index": "083",
     "pages": "552",
     "juz": [
@@ -1646,6 +1729,7 @@
     "count": 25,
     "title": "Al-Inshiqaq",
     "titleAr": "الإنشقاق",
+    "titlePs": "سندریینګ",
     "index": "084",
     "pages": "553",
     "juz": [
@@ -1664,6 +1748,7 @@
     "count": 22,
     "title": "Al-Buruj",
     "titleAr": "البروج",
+    "titlePs": "د ستورو حویلۍ",
     "index": "085",
     "pages": "554",
     "juz": [
@@ -1682,6 +1767,7 @@
     "count": 17,
     "title": "At-Tariq",
     "titleAr": "الطارق",
+    "titlePs": "د شپې کار",
     "index": "086",
     "pages": "555",
     "juz": [
@@ -1700,6 +1786,7 @@
     "count": 19,
     "title": "Al-Ala",
     "titleAr": "الأعلى",
+    "titlePs": "خورا لوړ",
     "index": "087",
     "pages": "556",
     "juz": [
@@ -1718,6 +1805,7 @@
     "count": 26,
     "title": "Al-Ghashiyah",
     "titleAr": "الغاشية",
+    "titlePs": "د",
     "index": "088",
     "pages": "556",
     "juz": [
@@ -1736,6 +1824,7 @@
     "count": 30,
     "title": "Al-Fajr",
     "titleAr": "الفجر",
+    "titlePs": "دسهار",
     "index": "089",
     "pages": "557",
     "juz": [
@@ -1754,6 +1843,7 @@
     "count": 20,
     "title": "Al-Balad",
     "titleAr": "البلد",
+    "titlePs": "ښار",
     "index": "090",
     "pages": "559",
     "juz": [
@@ -1772,6 +1862,7 @@
     "count": 15,
     "title": "Ash-Shams",
     "titleAr": "الشمس",
+    "titlePs": "لمر",
     "index": "091",
     "pages": "559",
     "juz": [
@@ -1790,6 +1881,7 @@
     "count": 21,
     "title": "Al-Lail",
     "titleAr": "الليل",
+    "titlePs": "شپه",
     "index": "092",
     "pages": "560",
     "juz": [
@@ -1808,6 +1900,7 @@
     "count": 11,
     "title": "Ad-Duha",
     "titleAr": "الضحى",
+    "titlePs": "د سهار وختونه",
     "index": "093",
     "pages": "561",
     "juz": [
@@ -1826,6 +1919,7 @@
     "count": 8,
     "title": "Ash-Sharh",
     "titleAr": "الشرح",
+    "titlePs": "د",
     "index": "094",
     "pages": "561",
     "juz": [
@@ -1844,6 +1938,7 @@
     "count": 8,
     "title": "At-Tin",
     "titleAr": "التين",
+    "titlePs": "د",
     "index": "095",
     "pages": "562",
     "juz": [
@@ -1862,6 +1957,7 @@
     "count": 19,
     "title": "Al-Alaq",
     "titleAr": "العلق",
+    "titlePs": "ټوټه",
     "index": "096",
     "pages": "562",
     "juz": [
@@ -1880,6 +1976,7 @@
     "count": 5,
     "title": "Al-Qadr",
     "titleAr": "القدر",
+    "titlePs": "طاقت",
     "index": "097",
     "pages": "563",
     "juz": [
@@ -1898,6 +1995,7 @@
     "count": 8,
     "title": "Al-Bayinah",
     "titleAr": "البينة",
+    "titlePs": "روښانه ثبوت",
     "index": "098",
     "pages": "563",
     "juz": [
@@ -1916,6 +2014,7 @@
     "count": 8,
     "title": "Az-Zalzalah",
     "titleAr": "الزلزلة",
+    "titlePs": "زلزله",
     "index": "099",
     "pages": "564",
     "juz": [
@@ -1934,6 +2033,7 @@
     "count": 11,
     "title": "Al-Adiyat",
     "titleAr": "العاديات",
+    "titlePs": "کورس",
     "index": "100",
     "pages": "564",
     "juz": [
@@ -1952,6 +2052,7 @@
     "count": 11,
     "title": "Al-Qariah",
     "titleAr": "القارعة",
+    "titlePs": "ناورین",
     "index": "101",
     "pages": "565",
     "juz": [
@@ -1970,6 +2071,7 @@
     "count": 8,
     "title": "Al-Takathur",
     "titleAr": "التكاثر",
+    "titlePs": "په نړۍ کې سیالي ډیریږي",
     "index": "102",
     "pages": "565",
     "juz": [
@@ -1988,6 +2090,7 @@
     "count": 3,
     "title": "Al-Asr",
     "titleAr": "العصر",
+    "titlePs": "د کمېدو ورځ",
     "index": "103",
     "pages": "566",
     "juz": [
@@ -2006,6 +2109,7 @@
     "count": 9,
     "title": "Al-Humazah",
     "titleAr": "الهمزة",
+    "titlePs": "ټراډوسر",
     "index": "104",
     "pages": "566",
     "juz": [
@@ -2024,6 +2128,7 @@
     "count": 5,
     "title": "Al-Fil",
     "titleAr": "الفيل",
+    "titlePs": "د هاګی",
     "index": "105",
     "pages": "566",
     "juz": [
@@ -2042,6 +2147,7 @@
     "count": 4,
     "title": "Quraish",
     "titleAr": "قريش",
+    "titlePs": "قریش",
     "index": "106",
     "pages": "567",
     "juz": [
@@ -2060,6 +2166,7 @@
     "count": 7,
     "title": "Al-Ma'un",
     "titleAr": "الماعون",
+    "titlePs": "کوچني ډولونه",
     "index": "107",
     "pages": "567",
     "juz": [
@@ -2078,6 +2185,7 @@
     "count": 3,
     "title": "Al-Kauthar",
     "titleAr": "الكوثر",
+    "titlePs": "ډیرول",
     "index": "108",
     "pages": "567",
     "juz": [
@@ -2096,6 +2204,7 @@
     "count": 6,
     "title": "Al-Kafirun",
     "titleAr": "الكافرون",
+    "titlePs": "کافران",
     "index": "109",
     "pages": "568",
     "juz": [
@@ -2114,6 +2223,7 @@
     "count": 3,
     "title": "An-Nasr",
     "titleAr": "النصر",
+    "titlePs": "د الهی ملاتړ",
     "index": "110",
     "pages": "568",
     "juz": [
@@ -2132,6 +2242,7 @@
     "count": 5,
     "title": "Al-Masad",
     "titleAr": "المسد",
+    "titlePs": "د پام فایبر",
     "index": "111",
     "pages": "568",
     "juz": [
@@ -2150,6 +2261,7 @@
     "count": 4,
     "title": "Al-Ikhlas",
     "titleAr": "الإخلاص",
+    "titlePs": "اخلاص",
     "index": "112",
     "pages": "569",
     "juz": [
@@ -2168,6 +2280,7 @@
     "count": 5,
     "title": "Al-Falaq",
     "titleAr": "الفلق",
+    "titlePs": "د ورځې ماتیدل",
     "index": "113",
     "pages": "569",
     "juz": [
@@ -2186,6 +2299,7 @@
     "count": 6,
     "title": "An-Nas",
     "titleAr": "الناس",
+    "titlePs": "د",
     "index": "114",
     "pages": "569",
     "juz": [

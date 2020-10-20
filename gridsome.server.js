@@ -1,13 +1,13 @@
-module.exports = function (api) {
+module.exports = function(api) {
   api.loadSource(async actions => {
-    const Surahs = require('./src/data/surahs.json');
-    const Verses = require('./src/data/verses.json');
-    const Translations = require('./src/data/translations.json');
+    const Surahs = require('./src/data/surahs.json')
+    const Verses = require('./src/data/verses.json')
+    const Translations = require('./src/data/translations.json')
 
-    const surahCollection = actions.addCollection('Surah');
+    const surahCollection = actions.addCollection('Surah')
     Surahs.forEach((surah, surahIndex) => {
-      const prevSurah = Surahs[surahIndex - 1];
-      const nextSurah = Surahs[surahIndex + 1];
+      const prevSurah = Surahs[surahIndex - 1]
+      const nextSurah = Surahs[surahIndex + 1]
       surahCollection.addNode({
         id: Number(surah.index),
         ...surah,
@@ -16,10 +16,10 @@ module.exports = function (api) {
         verses: Verses.filter(v => v.surah == parseInt(surah.index)).map(v => {
           return {
             ...v,
-            translation: Translations.find(t => t.surah == parseInt(surah.index) && t.verse == v.index).translation
+            translation: Translations.find(t => t.surah == parseInt(surah.index) && t.verse == v.index).translation,
           }
-        })
-      });
+        }),
+      })
     })
-  });
+  })
 }
